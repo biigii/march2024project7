@@ -1,3 +1,50 @@
+.button-btn {
+    width: 180px;
+    height: 40px;
+    background-color: var(--primary);
+    border: 2px solid;
+    text-align: center;
+    line-height: 40px;
+    text-transform: capitalize;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    /* transition-property: background-color;
+    transition-duration: 0.5s; */
+    transition: background-color 0.5s;
+}
+
+.button-btn:hover {
+    background-color: #fff;
+}
+
+.a-btn {
+    background-color: var(--primary);
+    text-decoration: none;
+    border: 2px solid;
+    border-radius: 5px;
+    /* width: 180px;
+    height: 40px;
+    display: block;
+    text-align: center;
+    line-height: 40px ; */
+    padding: 10px 50px;
+    display: inline-block;
+    font-size: 20px;
+    transition-property: background-color, color;
+    transition-duration: 500ms;
+}
+
+.a-btn:hover {
+    background-color: #000;
+    color: #fff
+}
+
+
+header {
+    margin-bottom: 100px;
+}
+
 nav.navigation {
     height: 150px;
     line-height: 150px;
