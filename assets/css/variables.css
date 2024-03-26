@@ -1,10 +1,6 @@
 /* css variable */
 /* :root or root as alias for HTML <html> */
 :root {
-    /* we define our css variables */
-    /* --primary-color:
-    --secondary-color: */
-    /* --font-family: */
     --primary: #acf411;
     --secondary: #f12b6a;
 }

@@ -1,0 +1,48 @@
+/* box model */
+/* div {
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    padding: 50px;
+    border: 10px solid
+} */
+
+.box-1 {
+  /* to include both padding as well as border */
+
+  overflow: hidden;
+  width: 500px;
+  height: 500px;
+  background-color: var(--primary);
+  /* padding: 20px; */
+  /* padding-top: 90px;
+  padding-left: 60px;
+  padding-right: 60px; */
+  /* border-width: 20px;
+  border-style: solid;
+  border-color: var(--secondary); */
+  border: 20px solid var(--secondary);
+  /* border-radius: 50% */
+  border-top-left-radius: 50px;
+  border-top-right-radius: 150px;
+  border-bottom-left-radius: 300px;
+}
+
+.box-2 {
+  overflow: hidden;
+  width: 300px;
+  height: 300px;
+  background-color: #d37575;
+  padding: 30px;
+  /* border-right: 20px solid;
+  border-top: 30px double; */
+  border-left-style: solid;
+  border-left-width: 20px;
+  border-left-color: #f99
+}
+
+/* main {
+    background-color: var(--secondary);
+    width: 50%;
+    height: 70%;
+} */
