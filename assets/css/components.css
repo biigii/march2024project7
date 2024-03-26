@@ -1,48 +1,64 @@
-/* box model */
-/* div {
-    width: 100px;
-    height: 100px;
-    margin: 50px;
-    padding: 50px;
-    border: 10px solid
-} */
-
-.box-1 {
-  /* to include both padding as well as border */
-
-  overflow: hidden;
-  width: 500px;
-  height: 500px;
-  background-color: var(--primary);
-  /* padding: 20px; */
-  /* padding-top: 90px;
-  padding-left: 60px;
-  padding-right: 60px; */
-  /* border-width: 20px;
-  border-style: solid;
-  border-color: var(--secondary); */
-  border: 20px solid var(--secondary);
-  /* border-radius: 50% */
-  border-top-left-radius: 50px;
-  border-top-right-radius: 150px;
-  border-bottom-left-radius: 300px;
-}
-
-.box-2 {
-  overflow: hidden;
-  width: 300px;
-  height: 300px;
-  background-color: #d37575;
-  padding: 30px;
-  /* border-right: 20px solid;
-  border-top: 30px double; */
-  border-left-style: solid;
-  border-left-width: 20px;
-  border-left-color: #f99
-}
-
-/* main {
+nav.navigation {
+    height: 150px;
+    line-height: 150px;
     background-color: var(--secondary);
-    width: 50%;
-    height: 70%;
+    text-align: center;
+}
+
+nav.navigation a {
+    color: var(--primary);
+    font-size: 20px;
+    text-transform: capitalize;
+    text-decoration: none;
+    /* background-color: red; */
+    /* width: 150px;
+    height: 70px; */
+    /* anchor tag has display: inline; as default*/
+    /* therefore it does not accept width and height property */
+    /* margin-left: 70px;
+    margin-right: 150px; */
+    /* margin-top: 30px; */
+    /* padding-left: 30px;
+    padding-right: 150px; */
+    /* padding-top: 50px;
+    padding-bottom: 400px; */
+    /* display: block; */
+    /* margin-bottom: 130px; */
+    display: inline-block;
+    margin: 0 20px;
+}
+
+/* :hover pseudo class */
+nav.navigation a:hover {
+    color: #fff;
+    font-weight: bold;
+}
+
+
+
+
+
+/* h1 {
+    text-align: center;
+}
+
+h1:hover {
+    color: red;
+    font-size: 60px;
 } */
+
+/* h1 {
+    display: block
+    background-color: red;
+    width: 300px;
+    height: 300px;
+    margin-top: 200px;
+    margin-left: 200px;
+    padding-top: 100px;
+    padding-left: 30px
+} */
+
+
+
+
+
